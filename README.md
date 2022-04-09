@@ -9,15 +9,17 @@ Replace $HOMEBREW_DIR with your homebrew directory, it can be /usr/local/ (x64) 
 
 1. Install dependencies using homebrew
 
-brew install libgit2-glib libhandy vte3 libsoup libpeas gtk+3 vala guile libgee glib meson gtksourceview4 editorconfig gsettings-desktop-schemas gtkspell3 appstream-glib gcc
+```brew install libgit2-glib libhandy vte3 libsoup libpeas gtk+3 vala guile libgee glib meson gtksourceview4 editorconfig gsettings-desktop-schemas gtkspell3 appstream-glib gcc```
 
 2. Build sources:
+```
     meson build --prefix=$HOMEBREW_DIR
     cd build
     ninja
+```
 
 3. Copy glib schemas (app won't launch otherwise!)
-    1. From ‘schemas’ to /opt/homebrew/share/glib-2.0/schemas
+    1. From ‘schemas’ to $HOMEBREW_DIR/share/glib-2.0/schemas
 
 4. Install elementary icon theme
     1. Copy /icons/elementary to $HOMEBREW_DIR/share/icons/
