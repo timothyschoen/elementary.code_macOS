@@ -76,7 +76,7 @@ config_vala = configure_file(
 )
 
 # compile shared library, generate GIR, header, and vapi file
-libgranite = library(
+libgranite = static_library(
     'granite',
 
     libgranite_sources,
@@ -91,10 +91,6 @@ libgranite = library(
     vala_header: 'granite.h',
     vala_vapi: 'granite.vapi',
     vala_gir: granite_gir,
-
-    version: meson.project_version(),
-    install: true,
-    install_dir: [true, include_dir, true, true],
 )
 
 install_data(
@@ -139,4 +135,3 @@ granite_pc = pkgconfig.generate(
     version: meson.project_version(),
     url: 'https://github.com/elementary/granite',
 )
-
