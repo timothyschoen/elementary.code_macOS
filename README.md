@@ -26,6 +26,7 @@ Replace $HOMEBREW_DIR with your homebrew directory, it can be /usr/local/ (x64) 
 4. Install elementary icon theme
     1. Copy /icons/elementary to $HOMEBREW_DIR/share/icons/
     2. Set theme in ~/.config/gtk-3.0/settings.ini -> see /icons folder for settings.ini example
+    3. Alternatively: ```brew install adwaita-icon-theme```
 
 5. Package application (with AppleScript to allow open action) (TODO)
 
