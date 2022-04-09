@@ -11,7 +11,9 @@ Replace $HOMEBREW_DIR with your homebrew directory, it can be /usr/local/ (x64) 
 
 1. Install dependencies using homebrew
 
-```brew install libgit2-glib libhandy vte3 libsoup libpeas gtk+3 vala guile libgee glib meson ninja gtksourceview4 editorconfig gsettings-desktop-schemas gtkspell3 appstream-glib gcc```
+```
+brew install libgit2-glib libhandy vte3 libsoup libpeas gtk+3 vala guile libgee glib meson ninja gtksourceview4 editorconfig gsettings-desktop-schemas gtkspell3 appstream-glib gcc
+```
 
 2. Build sources:
 ```
