@@ -20,17 +20,18 @@ Replace $HOMEBREW_DIR with your homebrew directory, it can be /usr/local/ (x64) 
     ninja
 ```
 
-3. Copy glib schemas (app won't launch otherwise!)
-    1. From ‘schemas’ to $HOMEBREW_DIR/share/glib-2.0/schemas
+3. Install
+```
+   sudo ninja install
 
-4. Install elementary icon theme
-    1. Copy /icons/elementary to $HOMEBREW_DIR/share/icons/
-    2. Set theme in ~/.config/gtk-3.0/settings.ini -> see /icons folder for settings.ini example
-    3. Alternatively: ```brew install adwaita-icon-theme```
+```
 
-5. Package application (with AppleScript to allow open action) (TODO)
+Installation is necessary because it moves some glib schemas that the app needs in order to launch.
 
-I'll create a simpler installation workflow soon!
+It also copies the elementary-icon-theme to $HOMEBREW_DIR/share/icons/ and sets it as the default theme in ~/.config/gtk-3.0/settings.ini
+So this script will change your default gtk theme, be warned! Not many apps on mac use gtk so it's probably not a big deal for most.
+
+It will install the application to /Applications/Code.app
 
 This is mostly for playing around, it works okay-ish. It can't receive Apple's "open file" commands, so that part is still broken.
 
