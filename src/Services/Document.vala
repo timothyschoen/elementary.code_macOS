@@ -258,25 +258,6 @@ namespace Scratch.Services {
             this.working = true;
             loaded = false;
 
-            var content_type = ContentType.from_mime_type (mime_type);
-
-            if (!force && !(ContentType.is_a (content_type, "text/plain"))) {
-                var title = _("%s Is Not a Text File").printf (get_basename ());
-                var description = _("Code will not load this type of file.");
-                var alert_view = new Granite.Widgets.AlertView (title, description, "dialog-warning");
-                alert_view.show_action (_("Load Anyway"));
-                alert_view.show_all ();
-                main_stack.add_named (alert_view, "load_alert");
-                main_stack.set_visible_child (alert_view);
-                alert_view.action_activated.connect (() => {
-                    open.begin (true);
-                    alert_view.destroy ();
-                });
-
-                working = false;
-                return;
-            }
-
             while (Gtk.events_pending ()) {
                 Gtk.main_iteration ();
             }
@@ -487,10 +468,6 @@ namespace Scratch.Services {
             all_files_filter.set_filter_name (_("All files"));
             all_files_filter.add_pattern ("*");
 
-            var text_files_filter = new Gtk.FileFilter ();
-            text_files_filter.set_filter_name (_("Text files"));
-            text_files_filter.add_mime_type ("text/*");
-
             var file_chooser = new Gtk.FileChooserNative (
                 _("Save File"),
                 (Gtk.Window) this.get_toplevel (),
@@ -499,7 +476,6 @@ namespace Scratch.Services {
                 _("Cancel")
             );
             file_chooser.add_filter (all_files_filter);
-            file_chooser.add_filter (text_files_filter);
             file_chooser.do_overwrite_confirmation = true;
             file_chooser.set_current_folder_uri (Utils.last_path ?? GLib.Environment.get_home_dir ());
 

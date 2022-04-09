@@ -49,7 +49,7 @@ namespace Scratch.Services {
                     return true;
                 default:
                     warning ("Cannot open %s. Cannot handle file type %s", file.get_path (), type.to_string ());
-                    return false;
+                    return true;
             }
         }
 

@@ -1,0 +1,9 @@
+/*
+ * Copyright 2021 elementary, Inc. (https://elementary.io)
+ * SPDX-License-Identifier: LGPL-3.0-or-later
+ */
+
+namespace Granite {
+    private const string GETTEXT_PACKAGE = "@GETTEXT_PACKAGE@";
+    private const string LOCALEDIR = "@LOCALEDIR@";
+}

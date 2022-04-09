@@ -53,6 +53,7 @@ executable(
     code_resources,
     config_header,
     dependencies: dependencies,
+    link_with: granite_dep,
     install: true
 )
 

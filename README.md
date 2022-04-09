@@ -1,33 +1,29 @@
-# Code
-[![Translation status](https://l10n.elementary.io/widgets/code/-/svg-badge.svg)](https://l10n.elementary.io/projects/code/?utm_source=widget)
+# Code for MacOS
 
-![Screenshot](data/screenshot.png?raw=true)
 
 ## Building, Testing, and Installation
 
-You'll need the following dependencies:
-* meson
-* libeditorconfig-dev
-* libgail-3-dev
-* libgee-0.8-dev
-* libgit2-glib-1.0-dev
-* libgtksourceview-4-dev
-* libgtkspell3-3-dev
-* libgranite-dev >= 6.0.0
-* libhandy-1-dev >= 0.90.0
-* libpeas-dev
-* libsoup2.4-dev
-* libvala-0.48-dev (or higher)
-* libvte-2.91-dev
-* valac
+Replace $HOMEBREW_DIR with your homebrew directory, it can be /usr/local/ (x64) or /opt/homebrew (ARM)
 
-Run `meson build` to configure the build environment. Change to the build directory and run `ninja test` to build
+1. Install dependencies using homebrew
 
-    meson build --prefix=/usr
+brew install libgit2-glib libhandy vte3 libsoup libpeas gtk+3 vala guile libgee glib meson gtksourceview4 editorconfig gsettings-desktop-schemas gtkspell3 appstream-glib gcc
+
+2. Build sources:
+    meson build --prefix=$HOMEBREW_DIR
     cd build
-    ninja test
+    ninja
 
-To install, use `ninja install`, then execute with `io.elementary.code`
+3. Copy glib schemas (app won't launch otherwise!)
+    1. From ‘schemas’ to /opt/homebrew/share/glib-2.0/schemas
 
-    sudo ninja install
-    io.elementary.code
+4. Install elementary icon theme
+    1. Copy /icons/elementary to $HOMEBREW_DIR/share/icons/
+    2. Set theme in ~/.config/gtk-3.0/settings.ini -> see /icons folder for settings.ini example
+
+5. Package application (with AppleScript to allow open action) (TODO)
+
+I'll create a simpler installation workflow soon!
+
+This is mostly for playing around, it works okay-ish. It can't receive Apple's "open file" commands, so that part is still broken.
+

@@ -1,0 +1,399 @@
+# Chinese (Simplified) translation for granite
+# Copyright (c) 2011 Rosetta Contributors and Canonical Ltd 2011
+# This file is distributed under the same license as the granite package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2011.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: granite\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-10-06 22:41+0000\n"
+"PO-Revision-Date: 2021-05-28 08:51+0000\n"
+"Last-Translator: Harrison Xu <xuhaifeng1998@gmail.com>\n"
+"Language-Team: Chinese (Simplified) <https://l10n.elementary.io/projects/"
+"desktop/granite/zh_Hans/>\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Weblate 4.4.2\n"
+"X-Launchpad-Export-Date: 2017-03-07 05:44+0000\n"
+
+#: lib/Application.vala:171
+msgid "Show Granite Options"
+msgstr "显示 Granite 选项"
+
+#. / TRANSLATORS: a GLib.DateTime format showing the hour (12h format) with seconds
+#: lib/DateTime.vala:28
+msgid "%-l:%M:%S %p"
+msgstr "%p %-l:%M:%S"
+
+#. / TRANSLATORS: a GLib.DateTime format showing the hour (12h format)
+#: lib/DateTime.vala:31
+msgid "%-l:%M %p"
+msgstr "%p %-l:%M"
+
+#. / TRANSLATORS: a GLib.DateTime format showing the hour (24h format) with seconds
+#: lib/DateTime.vala:36
+msgid "%H:%M:%S"
+msgstr "%H:%M:%S"
+
+#. / TRANSLATORS: a GLib.DateTime format showing the hour (24h format)
+#: lib/DateTime.vala:39
+msgid "%H:%M"
+msgstr "%H:%M"
+
+#: lib/DateTime.vala:59
+msgid "Now"
+msgstr "现在"
+
+#: lib/DateTime.vala:62
+#, c-format
+msgid "%dm ago"
+msgid_plural "%dm ago"
+msgstr[0] "%d 分钟前"
+
+#: lib/DateTime.vala:65
+#, c-format
+msgid "%dh ago"
+msgid_plural "%dh ago"
+msgstr[0] "%d 小时前"
+
+#: lib/DateTime.vala:71
+#, c-format
+msgid "in %dm"
+msgid_plural "in %dm"
+msgstr[0] "%d 分钟后"
+
+#: lib/DateTime.vala:74
+#, c-format
+msgid "in %dh"
+msgid_plural "in %dh"
+msgstr[0] "%d 小时后"
+
+#: lib/DateTime.vala:80
+msgid "Yesterday"
+msgstr "昨天"
+
+#: lib/DateTime.vala:82
+msgid "Tomorrow"
+msgstr "明天"
+
+#. / TRANSLATORS: a GLib.DateTime format showing the weekday, date, and year
+#: lib/DateTime.vala:146
+msgid "%a, %b %e, %Y"
+msgstr "%Y年%m月%d日 星期%a"
+
+#. / TRANSLATORS: a GLib.DateTime format showing the date and year
+#: lib/DateTime.vala:149
+msgid "%b %e %Y"
+msgstr "%Y年%m月%d日"
+
+#. / TRANSLATORS: a GLib.DateTime format showing the year
+#: lib/DateTime.vala:152
+msgid "%Y"
+msgstr "%Y年"
+
+#. / TRANSLATORS: a GLib.DateTime format showing the date
+#: lib/DateTime.vala:155
+msgid "%b %e"
+msgstr "%m月%d日"
+
+#. / TRANSLATORS: a GLib.DateTime format showing the weekday and year.
+#: lib/DateTime.vala:158
+msgid "%a %Y"
+msgstr "%Y年 星期%a"
+
+#. / TRANSLATORS: a GLib.DateTime format showing the weekday
+#: lib/DateTime.vala:161
+#, c-format
+msgid "%a"
+msgstr "星期%a"
+
+#. / TRANSLATORS: a GLib.DateTime format showing the weekday and date
+#: lib/DateTime.vala:164
+msgid "%a, %b %e"
+msgstr "%m月%d日 星期%a"
+
+#. / TRANSLATORS: a GLib.DateTime format showing the month.
+#: lib/DateTime.vala:167
+msgid "%b"
+msgstr "%m月"
+
+#: lib/Widgets/DynamicNotebook.vala:280 lib/Widgets/DynamicNotebook.vala:304
+msgid "Close Tab"
+msgstr "关闭标签"
+
+#: lib/Widgets/DynamicNotebook.vala:283
+msgid "Open in a New Window"
+msgstr "在新窗口中打开"
+
+#: lib/Widgets/DynamicNotebook.vala:286
+msgid "Duplicate"
+msgstr "复制"
+
+#: lib/Widgets/DynamicNotebook.vala:378
+msgid "Close Other Tab"
+msgstr "关闭其他标签"
+
+#: lib/Widgets/DynamicNotebook.vala:378
+msgid "Close Other Tabs"
+msgstr "关闭其他标签"
+
+#: lib/Widgets/DynamicNotebook.vala:383
+msgid "Close Tab to the Right"
+msgstr "关闭右侧的标签"
+
+#: lib/Widgets/DynamicNotebook.vala:384
+msgid "Close Tabs to the Right"
+msgstr "关闭右侧的标签"
+
+#: lib/Widgets/DynamicNotebook.vala:389
+msgid "Pin"
+msgstr "置顶"
+
+#: lib/Widgets/DynamicNotebook.vala:391
+msgid "Unpin"
+msgstr "取消固定"
+
+#: lib/Widgets/DynamicNotebook.vala:568
+msgid "Clear All"
+msgstr "全部清除"
+
+#: lib/Widgets/DynamicNotebook.vala:833 lib/Widgets/DynamicNotebook.vala:894
+msgid "New Tab"
+msgstr "新建标签"
+
+#: lib/Widgets/DynamicNotebook.vala:834
+msgid "Undo Close Tab"
+msgstr "撤消关闭标签"
+
+#: lib/Widgets/DynamicNotebook.vala:904
+msgid "Closed Tabs"
+msgstr "已关闭的标签"
+
+#: lib/Widgets/MessageDialog.vala:125
+msgid "_Close"
+msgstr "关闭"
+
+#: lib/Widgets/MessageDialog.vala:128
+msgid "_Cancel"
+msgstr "取消"
+
+#: lib/Widgets/MessageDialog.vala:338
+msgid "Details"
+msgstr "详情"
+
+#: lib/Widgets/StorageBar.vala:66
+msgid "Audio"
+msgstr "音频"
+
+#. / TRANSLATORS: Refers to videos the mime type. Not Videos the app.
+#: lib/Widgets/StorageBar.vala:69
+msgid "Videos"
+msgstr "视频"
+
+#. / TRANSLATORS: Refers to photos the mime type. Not Photos the app.
+#: lib/Widgets/StorageBar.vala:72
+msgid "Photos"
+msgstr "照片"
+
+#: lib/Widgets/StorageBar.vala:74
+msgid "Apps"
+msgstr "应用"
+
+#. / TRANSLATORS: Refers to files the mime type. Not Files the app.
+#: lib/Widgets/StorageBar.vala:77
+msgid "Files"
+msgstr "文件"
+
+#: lib/Widgets/StorageBar.vala:79
+msgid "Other"
+msgstr "其他"
+
+#: lib/Widgets/StorageBar.vala:255
+#, c-format
+msgid "%s free out of %s"
+msgstr "%s 可用 共 %s"
+
+#. / TRANSLATORS: this will only show up when 12-hours clock is in use
+#: lib/Widgets/TimePicker.vala:98
+msgid "AM"
+msgstr "上午"
+
+#. / TRANSLATORS: this will only show up when 12-hours clock is in use
+#: lib/Widgets/TimePicker.vala:100
+msgid "PM"
+msgstr "下午"
+
+#. / TRANSLATORS: separates hours from minutes.
+#: lib/Widgets/TimePicker.vala:146
+msgid ":"
+msgstr "："
+
+#: lib/Widgets/Utils.vala:91
+msgid "Shift"
+msgstr "Shift"
+
+#: lib/Widgets/Utils.vala:95
+msgid "Ctrl"
+msgstr "Ctrl"
+
+#: lib/Widgets/Utils.vala:99
+msgid "Alt"
+msgstr "Alt"
+
+#. /TRANSLATORS: The Alt key on the left side of the keyboard
+#: lib/Widgets/Utils.vala:117
+msgid "Left Alt"
+msgstr "左 Alt"
+
+#. /TRANSLATORS: The Alt key on the right side of the keyboard
+#: lib/Widgets/Utils.vala:121
+msgid "Right Alt"
+msgstr "右 Alt"
+
+#. /TRANSLATORS: The Ctrl key on the right side of the keyboard
+#: lib/Widgets/Utils.vala:128
+msgid "Right Ctrl"
+msgstr "右 Ctrl"
+
+#. /TRANSLATORS: The Ctrl key on the left side of the keyboard
+#: lib/Widgets/Utils.vala:132
+msgid "Left Ctrl"
+msgstr "左 Ctrl"
+
+#. /TRANSLATORS: This is a non-symbol representation of the "-" key
+#: lib/Widgets/Utils.vala:137
+msgid "Minus"
+msgstr "减号"
+
+#. /TRANSLATORS: This is a non-symbol representation of the "+" key
+#: lib/Widgets/Utils.vala:142
+msgid "Plus"
+msgstr "加号"
+
+#. /TRANSLATORS: This is a non-symbol representation of the "=" key
+#: lib/Widgets/Utils.vala:147
+msgid "Equals"
+msgstr "等号"
+
+#: lib/Widgets/Utils.vala:150
+msgid "Enter"
+msgstr "Enter"
+
+#. /TRANSLATORS: The Shift key on the left side of the keyboard
+#: lib/Widgets/Utils.vala:154
+msgid "Left Shift"
+msgstr "左 Shift"
+
+#. /TRANSLATORS: The Shift key on the right side of the keyboard
+#: lib/Widgets/Utils.vala:158
+msgid "Right Shift"
+msgstr "右 Shift"
+
+#. /TRANSLATORS: This is a delimiter that separates two keyboard shortcut labels like "⌘ + →, Control + A"
+#: lib/Widgets/Utils.vala:221
+msgid ", "
+msgstr "、 "
+
+#~ msgid "%s's Developers"
+#~ msgstr "%s 开发人员"
+
+#~ msgid "Website"
+#~ msgstr "网站"
+
+#~ msgid "Designed by:"
+#~ msgstr "设计师："
+
+#~ msgid "Written by:"
+#~ msgstr "开发者："
+
+#~ msgid "Documented by:"
+#~ msgstr "文档："
+
+#~ msgid "Translated by %s"
+#~ msgstr "翻译者：%s"
+
+#~ msgid "Close"
+#~ msgstr "关闭"
+
+#~ msgid ""
+#~ "This program is published under the terms of the %s license, it comes "
+#~ "with ABSOLUTELY NO WARRANTY; for details, visit %s"
+#~ msgstr "此应用程序的发布遵循 %s 许可，不做任何担保；详细信息， 请访问 %s"
+
+#~ msgid "Suggest Translations"
+#~ msgstr "助力翻译"
+
+#~ msgid "Report a Problem"
+#~ msgstr "报告问题"
+
+#~ msgid "Menu"
+#~ msgstr "菜单"
+
+#~ msgid "About"
+#~ msgstr "关于"
+
+#~ msgid "%a %b %e %Y"
+#~ msgstr "%Y年%m月%d日 星期%a"
+
+#~ msgid "%a %b %e"
+#~ msgstr "%m月%d日 星期%a"
+
+#~ msgid "© %s"
+#~ msgstr "© %s"
+
+#~ msgid "This program is published under the terms of the "
+#~ msgstr "此应用程序的发布遵循 "
+
+#~ msgid " license, it comes with ABSOLUTELY NO WARRANTY; for details, visit "
+#~ msgstr " 协议，不做任何担保；更多细节，请访问 "
+
+#~ msgid "Developers"
+#~ msgstr "开发者"
+
+#~ msgid "Open in a new Window"
+#~ msgstr "在新窗口中打开"
+
+#~ msgid "Could not contact Contractor. You may need to install it"
+#~ msgstr "无法连接 Contractor，您可能需要先安装它"
+
+#~ msgid "No action found for this file"
+#~ msgstr "未发现此文件的动作"
+
+#~ msgid "translator-credits"
+#~ msgstr ""
+#~ "Launchpad Contributions:\n"
+#~ "  Wang Dianjin https://launchpad.net/~tuhaihe\n"
+#~ "  Wylmer Wang https://launchpad.net/~wantinghard\n"
+#~ "  Yangyu Huang https://launchpad.net/~yangyu-huang\n"
+#~ "  colindemian https://launchpad.net/~colindemian"
+
+#~ msgid "Toasts"
+#~ msgstr "提醒视图"
+
+#~ msgid "Simple in-app notifications"
+#~ msgstr "简单的应用内通知"
+
+#~ msgid "Button was pressed!"
+#~ msgstr "按钮已点击！"
+
+#~ msgid "Do Things"
+#~ msgstr "完成任务"
+
+#~ msgid "Press Me"
+#~ msgstr "点击此处"
+
+#~ msgid "Did The Thing"
+#~ msgstr "任务完成"
+
+#~ msgid "Already did the thing"
+#~ msgstr "任务已完成"
+
+#~ msgid "Enabled"
+#~ msgstr "已启用"
+
+#~ msgid "Disabled"
+#~ msgstr "已禁用"

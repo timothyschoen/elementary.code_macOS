@@ -1,0 +1,401 @@
+msgid ""
+msgstr ""
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-10-06 22:41+0000\n"
+"PO-Revision-Date: 2021-04-06 22:15+0000\n"
+"Last-Translator: Prachi Joshi <josprachi@yahoo.com>\n"
+"Language-Team: Marathi <https://l10n.elementary.io/projects/desktop/granite/"
+"mr/>\n"
+"Language: mr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n > 1;\n"
+"X-Generator: Weblate 4.4.2\n"
+
+#: lib/Application.vala:171
+msgid "Show Granite Options"
+msgstr "ग्रेनाइट पर्याय दर्शवा"
+
+#. / TRANSLATORS: a GLib.DateTime format showing the hour (12h format) with seconds
+#: lib/DateTime.vala:28
+msgid "%-l:%M:%S %p"
+msgstr "%-l:%M:%S %p"
+
+#. / TRANSLATORS: a GLib.DateTime format showing the hour (12h format)
+#: lib/DateTime.vala:31
+msgid "%-l:%M %p"
+msgstr "%-l:%M %p"
+
+#. / TRANSLATORS: a GLib.DateTime format showing the hour (24h format) with seconds
+#: lib/DateTime.vala:36
+msgid "%H:%M:%S"
+msgstr "%H:%M:%S"
+
+#. / TRANSLATORS: a GLib.DateTime format showing the hour (24h format)
+#: lib/DateTime.vala:39
+msgid "%H:%M"
+msgstr "%H:%M"
+
+#: lib/DateTime.vala:59
+msgid "Now"
+msgstr "या क्षणी"
+
+#: lib/DateTime.vala:62
+#, c-format
+msgid "%dm ago"
+msgid_plural "%dm ago"
+msgstr[0] ""
+"एक \n"
+"%dm पूर्वी"
+msgstr[1] ""
+"दुसरा\n"
+"%dm पूर्वी"
+
+#: lib/DateTime.vala:65
+#, c-format
+msgid "%dh ago"
+msgid_plural "%dh ago"
+msgstr[0] ""
+"एक\n"
+"%dh पूर्वी"
+msgstr[1] ""
+"दुसरा \n"
+"%dh पूर्वी"
+
+#: lib/DateTime.vala:71
+#, c-format
+msgid "in %dm"
+msgid_plural "in %dm"
+msgstr[0] "%dm मध्ये"
+msgstr[1] "%dm  मध्ये"
+
+#: lib/DateTime.vala:74
+#, c-format
+msgid "in %dh"
+msgid_plural "in %dh"
+msgstr[0] "%dh मध्ये"
+msgstr[1] "%dh  मध्ये"
+
+#: lib/DateTime.vala:80
+msgid "Yesterday"
+msgstr "काल"
+
+#: lib/DateTime.vala:82
+msgid "Tomorrow"
+msgstr "उद्या"
+
+#. / TRANSLATORS: a GLib.DateTime format showing the weekday, date, and year
+#: lib/DateTime.vala:146
+msgid "%a, %b %e, %Y"
+msgstr "%a, %b %e, %Y"
+
+#. / TRANSLATORS: a GLib.DateTime format showing the date and year
+#: lib/DateTime.vala:149
+msgid "%b %e %Y"
+msgstr "%b %e %Y"
+
+#. / TRANSLATORS: a GLib.DateTime format showing the year
+#: lib/DateTime.vala:152
+msgid "%Y"
+msgstr "%Y"
+
+#. / TRANSLATORS: a GLib.DateTime format showing the date
+#: lib/DateTime.vala:155
+msgid "%b %e"
+msgstr "%b %e"
+
+#. / TRANSLATORS: a GLib.DateTime format showing the weekday and year.
+#: lib/DateTime.vala:158
+msgid "%a %Y"
+msgstr "%a %Y"
+
+#. / TRANSLATORS: a GLib.DateTime format showing the weekday
+#: lib/DateTime.vala:161
+#, c-format
+msgid "%a"
+msgstr "%a"
+
+#. / TRANSLATORS: a GLib.DateTime format showing the weekday and date
+#: lib/DateTime.vala:164
+msgid "%a, %b %e"
+msgstr "%a, %b %e"
+
+#. / TRANSLATORS: a GLib.DateTime format showing the month.
+#: lib/DateTime.vala:167
+msgid "%b"
+msgstr "%b"
+
+#: lib/Widgets/DynamicNotebook.vala:280 lib/Widgets/DynamicNotebook.vala:304
+msgid "Close Tab"
+msgstr "टॅब बंद करा"
+
+#: lib/Widgets/DynamicNotebook.vala:283
+msgid "Open in a New Window"
+msgstr "नवीन विंडोमध्ये उघडा"
+
+#: lib/Widgets/DynamicNotebook.vala:286
+msgid "Duplicate"
+msgstr "प्रतिकृती(डुप्लीकेट)"
+
+#: lib/Widgets/DynamicNotebook.vala:378
+msgid "Close Other Tab"
+msgstr "दुसरी टॅब बंद करा"
+
+#: lib/Widgets/DynamicNotebook.vala:378
+msgid "Close Other Tabs"
+msgstr "इतर टॅब बंद करा"
+
+#: lib/Widgets/DynamicNotebook.vala:383
+msgid "Close Tab to the Right"
+msgstr "उजवीकडील टॅब्स बंद करा"
+
+#: lib/Widgets/DynamicNotebook.vala:384
+msgid "Close Tabs to the Right"
+msgstr "उजवीकडील टॅब्स बंद करा"
+
+#: lib/Widgets/DynamicNotebook.vala:389
+msgid "Pin"
+msgstr "पिन"
+
+#: lib/Widgets/DynamicNotebook.vala:391
+msgid "Unpin"
+msgstr "अनपिन करा"
+
+#: lib/Widgets/DynamicNotebook.vala:568
+msgid "Clear All"
+msgstr "सर्व बंद करा"
+
+#: lib/Widgets/DynamicNotebook.vala:833 lib/Widgets/DynamicNotebook.vala:894
+msgid "New Tab"
+msgstr "नवी टॅब"
+
+#: lib/Widgets/DynamicNotebook.vala:834
+msgid "Undo Close Tab"
+msgstr "बंद टॅब पूर्ववत करा"
+
+#: lib/Widgets/DynamicNotebook.vala:904
+msgid "Closed Tabs"
+msgstr "बंद केलेल्या टॅब"
+
+#: lib/Widgets/MessageDialog.vala:125
+msgid "_Close"
+msgstr "_Close"
+
+#: lib/Widgets/MessageDialog.vala:128
+msgid "_Cancel"
+msgstr "_Cancel"
+
+#: lib/Widgets/MessageDialog.vala:338
+msgid "Details"
+msgstr "तपशील"
+
+#: lib/Widgets/StorageBar.vala:66
+msgid "Audio"
+msgstr "ऑडिओ"
+
+#. / TRANSLATORS: Refers to videos the mime type. Not Videos the app.
+#: lib/Widgets/StorageBar.vala:69
+msgid "Videos"
+msgstr "व्हिडीओ"
+
+#. / TRANSLATORS: Refers to photos the mime type. Not Photos the app.
+#: lib/Widgets/StorageBar.vala:72
+msgid "Photos"
+msgstr "फोटो"
+
+#: lib/Widgets/StorageBar.vala:74
+msgid "Apps"
+msgstr "अॅप्स"
+
+#. / TRANSLATORS: Refers to files the mime type. Not Files the app.
+#: lib/Widgets/StorageBar.vala:77
+msgid "Files"
+msgstr "फाईल्स"
+
+#: lib/Widgets/StorageBar.vala:79
+msgid "Other"
+msgstr "इतर"
+
+#: lib/Widgets/StorageBar.vala:255
+#, c-format
+msgid "%s free out of %s"
+msgstr "%s पैकी %s रिकामे"
+
+#. / TRANSLATORS: this will only show up when 12-hours clock is in use
+#: lib/Widgets/TimePicker.vala:98
+msgid "AM"
+msgstr "AM"
+
+#. / TRANSLATORS: this will only show up when 12-hours clock is in use
+#: lib/Widgets/TimePicker.vala:100
+msgid "PM"
+msgstr "PM"
+
+#. / TRANSLATORS: separates hours from minutes.
+#: lib/Widgets/TimePicker.vala:146
+msgid ":"
+msgstr ":"
+
+#: lib/Widgets/Utils.vala:91
+msgid "Shift"
+msgstr "शिफ्ट"
+
+#: lib/Widgets/Utils.vala:95
+msgid "Ctrl"
+msgstr "Ctrl"
+
+#: lib/Widgets/Utils.vala:99
+msgid "Alt"
+msgstr "Alt"
+
+#. /TRANSLATORS: The Alt key on the left side of the keyboard
+#: lib/Widgets/Utils.vala:117
+msgid "Left Alt"
+msgstr "डावे Alt"
+
+#. /TRANSLATORS: The Alt key on the right side of the keyboard
+#: lib/Widgets/Utils.vala:121
+msgid "Right Alt"
+msgstr "उजवा Alt"
+
+#. /TRANSLATORS: The Ctrl key on the right side of the keyboard
+#: lib/Widgets/Utils.vala:128
+msgid "Right Ctrl"
+msgstr "उजवा Ctrl"
+
+#. /TRANSLATORS: The Ctrl key on the left side of the keyboard
+#: lib/Widgets/Utils.vala:132
+msgid "Left Ctrl"
+msgstr "डावे Ctrl"
+
+#. /TRANSLATORS: This is a non-symbol representation of the "-" key
+#: lib/Widgets/Utils.vala:137
+msgid "Minus"
+msgstr "उणा"
+
+#. /TRANSLATORS: This is a non-symbol representation of the "+" key
+#: lib/Widgets/Utils.vala:142
+msgid "Plus"
+msgstr "अधिक"
+
+#. /TRANSLATORS: This is a non-symbol representation of the "=" key
+#: lib/Widgets/Utils.vala:147
+msgid "Equals"
+msgstr "च्या बरोबर"
+
+#: lib/Widgets/Utils.vala:150
+msgid "Enter"
+msgstr "एंटर"
+
+#. /TRANSLATORS: The Shift key on the left side of the keyboard
+#: lib/Widgets/Utils.vala:154
+msgid "Left Shift"
+msgstr "डावे शिफ्ट"
+
+#. /TRANSLATORS: The Shift key on the right side of the keyboard
+#: lib/Widgets/Utils.vala:158
+msgid "Right Shift"
+msgstr "उजवा शिफ्ट"
+
+#. /TRANSLATORS: This is a delimiter that separates two keyboard shortcut labels like "⌘ + →, Control + A"
+#: lib/Widgets/Utils.vala:221
+msgid ", "
+msgstr ", "
+
+#~ msgid "%s's Developers"
+#~ msgstr "%s चा डेव्हलपर"
+
+#~ msgid "Website"
+#~ msgstr "संकेतस्थळ(वेबसाइट)"
+
+#~ msgid "Designed by:"
+#~ msgstr "डिझाईन करणारे:"
+
+#~ msgid "Written by:"
+#~ msgstr "लेखक:"
+
+#~ msgid "Documented by:"
+#~ msgstr "दस्तऐवजीकरण करणारे:"
+
+#~ msgid "Translated by %s"
+#~ msgstr "%s द्वारा अनुवादित"
+
+#~ msgid "Close"
+#~ msgstr "बंद करा"
+
+#~ msgid ""
+#~ "This program is published under the terms of the %s license, it comes "
+#~ "with ABSOLUTELY NO WARRANTY; for details, visit %s"
+#~ msgstr ""
+#~ "हा प्रोग्राम %s परवान्याच्या अटींनुसार प्रकाशित झाला आहे, तो कोणत्याही प्रकारच्या "
+#~ "हमीसह येत नाही; अधिक माहितीसाठी %s ला भेट द्या"
+
+#~ msgid "Suggest Translations"
+#~ msgstr "अनुवाद सुचवा"
+
+#~ msgid "Report a Problem"
+#~ msgstr "अडचण कळवा"
+
+#~ msgid "Menu"
+#~ msgstr "सूची"
+
+#~ msgid "About"
+#~ msgstr "आमची माहिती"
+
+#~ msgid "© %s"
+#~ msgstr "© %s"
+
+#~ msgid "This program is published under the terms of the "
+#~ msgstr "हा कार्यक्रम यांच्या अटींवर प्रकाशित- "
+
+#~ msgid " license, it comes with ABSOLUTELY NO WARRANTY; for details, visit "
+#~ msgstr " परवाना, कोणत्याही वॉरंटीशिवाय; अतिरिक्त माहितीसाठी भेट द्या- "
+
+#~ msgid "Developers"
+#~ msgstr "डेव्हलपर्स"
+
+#~ msgid "Open in a new Window"
+#~ msgstr "नव्या विंडोमध्ये उघडा"
+
+#~ msgid "Could not contact Contractor. You may need to install it"
+#~ msgstr "कॉन्ट्रॅक्टरशी संपर्क साधू शकत नाही. आपल्याला ते इन्स्टॉल करावे लागू शकते"
+
+#~ msgid "No action found for this file"
+#~ msgstr "या फाईलसाठी कोणतीही कृती आढळली नाही"
+
+#~ msgid "%a %b %e %Y"
+#~ msgstr "%a %b %e %Y"
+
+#~ msgid "%a %b %e"
+#~ msgstr "%a %b %e"
+
+#~ msgid "translator-credits"
+#~ msgstr "अनुवादक-क्रेडिट्स"
+
+#~ msgid "Toasts"
+#~ msgstr "टोस्ट्स"
+
+#~ msgid "Simple in-app notifications"
+#~ msgstr "अॅप-मधील साध्या अधिसूचना"
+
+#~ msgid "Button was pressed!"
+#~ msgstr "बटण दाबले गेले!"
+
+#~ msgid "Do Things"
+#~ msgstr "कृती करा"
+
+#~ msgid "Press Me"
+#~ msgstr "येथे दाबा"
+
+#~ msgid "Did The Thing"
+#~ msgstr "कृती केली"
+
+#~ msgid "Already did the thing"
+#~ msgstr "कृती आधीच केली"
+
+#~ msgid "Enabled"
+#~ msgstr "सक्षम"
+
+#~ msgid "Disabled"
+#~ msgstr "अक्षम"

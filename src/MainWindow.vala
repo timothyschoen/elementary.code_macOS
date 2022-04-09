@@ -737,10 +737,6 @@ namespace Scratch {
             all_files_filter.set_filter_name (_("All files"));
             all_files_filter.add_pattern ("*");
 
-            var text_files_filter = new Gtk.FileFilter ();
-            text_files_filter.set_filter_name (_("Text files"));
-            text_files_filter.add_mime_type ("text/*");
-
             var file_chooser = new Gtk.FileChooserNative (
                 _("Open some files"),
                 this,
@@ -748,7 +744,6 @@ namespace Scratch {
                 _("Open"),
                 _("Cancel")
             );
-            file_chooser.add_filter (text_files_filter);
             file_chooser.add_filter (all_files_filter);
             file_chooser.select_multiple = true;
             file_chooser.set_current_folder_uri (Utils.last_path ?? GLib.Environment.get_home_dir ());

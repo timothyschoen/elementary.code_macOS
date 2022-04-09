@@ -1,0 +1,420 @@
+# Slovenian translation for granite
+# Copyright (c) 2012 Rosetta Contributors and Canonical Ltd 2012
+# This file is distributed under the same license as the granite package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2012.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: granite\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-10-06 22:41+0000\n"
+"PO-Revision-Date: 2020-03-02 23:09+0000\n"
+"Last-Translator: Marko <marko.dolar@gmail.com>\n"
+"Language-Team: Slovenian <https://l10n.elementary.io/projects/desktop/"
+"granite/sl/>\n"
+"Language: sl\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=4; plural=n%100==1 ? 0 : n%100==2 ? 1 : n%100==3 || n"
+"%100==4 ? 2 : 3;\n"
+"X-Generator: Weblate 3.9.1\n"
+"X-Launchpad-Export-Date: 2017-03-07 05:44+0000\n"
+
+#: lib/Application.vala:171
+msgid "Show Granite Options"
+msgstr "Pokaži nastavitve za Granite"
+
+#. / TRANSLATORS: a GLib.DateTime format showing the hour (12h format) with seconds
+#: lib/DateTime.vala:28
+msgid "%-l:%M:%S %p"
+msgstr "%l:%M:%S %p"
+
+#. / TRANSLATORS: a GLib.DateTime format showing the hour (12h format)
+#: lib/DateTime.vala:31
+#, fuzzy
+msgid "%-l:%M %p"
+msgstr "%k.%M"
+
+#. / TRANSLATORS: a GLib.DateTime format showing the hour (24h format) with seconds
+#: lib/DateTime.vala:36
+msgid "%H:%M:%S"
+msgstr "%H:%M:%S"
+
+#. / TRANSLATORS: a GLib.DateTime format showing the hour (24h format)
+#: lib/DateTime.vala:39
+msgid "%H:%M"
+msgstr "%H:%M"
+
+#: lib/DateTime.vala:59
+msgid "Now"
+msgstr "Zdaj"
+
+#: lib/DateTime.vala:62
+#, c-format
+msgid "%dm ago"
+msgid_plural "%dm ago"
+msgstr[0] "Pred %dm"
+msgstr[1] "Pred %dm"
+msgstr[2] "Pred %dm"
+msgstr[3] "Pred %dm"
+
+#: lib/DateTime.vala:65
+#, c-format
+msgid "%dh ago"
+msgid_plural "%dh ago"
+msgstr[0] "Pred %dh"
+msgstr[1] "Pred %dh"
+msgstr[2] "Pred %dh"
+msgstr[3] "Pred %dh"
+
+#: lib/DateTime.vala:71
+#, c-format
+msgid "in %dm"
+msgid_plural "in %dm"
+msgstr[0] "Čez %dm"
+msgstr[1] "Čez %dm"
+msgstr[2] "Čez %dm"
+msgstr[3] "Čez %dm"
+
+#: lib/DateTime.vala:74
+#, c-format
+msgid "in %dh"
+msgid_plural "in %dh"
+msgstr[0] "Čez %dh"
+msgstr[1] "Čez %dh"
+msgstr[2] "Čez %dh"
+msgstr[3] "Čez %dh"
+
+#: lib/DateTime.vala:80
+msgid "Yesterday"
+msgstr "Včeraj"
+
+#: lib/DateTime.vala:82
+msgid "Tomorrow"
+msgstr "Jutri"
+
+#. / TRANSLATORS: a GLib.DateTime format showing the weekday, date, and year
+#: lib/DateTime.vala:146
+msgid "%a, %b %e, %Y"
+msgstr "%a, %e. %b %Y"
+
+#. / TRANSLATORS: a GLib.DateTime format showing the date and year
+#: lib/DateTime.vala:149
+msgid "%b %e %Y"
+msgstr "%e. %b %Y"
+
+#. / TRANSLATORS: a GLib.DateTime format showing the year
+#: lib/DateTime.vala:152
+msgid "%Y"
+msgstr "%Y"
+
+#. / TRANSLATORS: a GLib.DateTime format showing the date
+#: lib/DateTime.vala:155
+msgid "%b %e"
+msgstr "%b %e"
+
+#. / TRANSLATORS: a GLib.DateTime format showing the weekday and year.
+#: lib/DateTime.vala:158
+msgid "%a %Y"
+msgstr "%a %Y"
+
+#. / TRANSLATORS: a GLib.DateTime format showing the weekday
+#: lib/DateTime.vala:161
+#, c-format
+msgid "%a"
+msgstr "%a"
+
+#. / TRANSLATORS: a GLib.DateTime format showing the weekday and date
+#: lib/DateTime.vala:164
+msgid "%a, %b %e"
+msgstr "%a, %e. %b"
+
+#. / TRANSLATORS: a GLib.DateTime format showing the month.
+#: lib/DateTime.vala:167
+msgid "%b"
+msgstr "%b"
+
+#: lib/Widgets/DynamicNotebook.vala:280 lib/Widgets/DynamicNotebook.vala:304
+msgid "Close Tab"
+msgstr "Zapri zavihek"
+
+#: lib/Widgets/DynamicNotebook.vala:283
+msgid "Open in a New Window"
+msgstr "Odpri v novem oknu"
+
+#: lib/Widgets/DynamicNotebook.vala:286
+msgid "Duplicate"
+msgstr "Podvoji"
+
+#: lib/Widgets/DynamicNotebook.vala:378
+msgid "Close Other Tab"
+msgstr "Zapri drug zavihek"
+
+#: lib/Widgets/DynamicNotebook.vala:378
+msgid "Close Other Tabs"
+msgstr "Zapri druge zavihke"
+
+#: lib/Widgets/DynamicNotebook.vala:383
+msgid "Close Tab to the Right"
+msgstr "Zapri zavihek na desni"
+
+#: lib/Widgets/DynamicNotebook.vala:384
+msgid "Close Tabs to the Right"
+msgstr "Zapri zavihke na desni"
+
+#: lib/Widgets/DynamicNotebook.vala:389
+msgid "Pin"
+msgstr ""
+
+#: lib/Widgets/DynamicNotebook.vala:391
+msgid "Unpin"
+msgstr ""
+
+#: lib/Widgets/DynamicNotebook.vala:568
+msgid "Clear All"
+msgstr "Izbriši vse"
+
+#: lib/Widgets/DynamicNotebook.vala:833 lib/Widgets/DynamicNotebook.vala:894
+msgid "New Tab"
+msgstr "Nov zavihek"
+
+#: lib/Widgets/DynamicNotebook.vala:834
+msgid "Undo Close Tab"
+msgstr "Ponovno odpri zaprti zavihek"
+
+#: lib/Widgets/DynamicNotebook.vala:904
+msgid "Closed Tabs"
+msgstr "Zaprti zavihki"
+
+#: lib/Widgets/MessageDialog.vala:125
+msgid "_Close"
+msgstr "Zapri"
+
+#: lib/Widgets/MessageDialog.vala:128
+msgid "_Cancel"
+msgstr "Prekliči"
+
+#: lib/Widgets/MessageDialog.vala:338
+msgid "Details"
+msgstr "Podrobnosti"
+
+#: lib/Widgets/StorageBar.vala:66
+msgid "Audio"
+msgstr "Zvok"
+
+#. / TRANSLATORS: Refers to videos the mime type. Not Videos the app.
+#: lib/Widgets/StorageBar.vala:69
+msgid "Videos"
+msgstr "Video"
+
+#. / TRANSLATORS: Refers to photos the mime type. Not Photos the app.
+#: lib/Widgets/StorageBar.vala:72
+msgid "Photos"
+msgstr "Fotografije"
+
+#: lib/Widgets/StorageBar.vala:74
+msgid "Apps"
+msgstr "Aplikacije"
+
+#. / TRANSLATORS: Refers to files the mime type. Not Files the app.
+#: lib/Widgets/StorageBar.vala:77
+msgid "Files"
+msgstr "Datoteke"
+
+#: lib/Widgets/StorageBar.vala:79
+msgid "Other"
+msgstr "Drugo"
+
+#: lib/Widgets/StorageBar.vala:255
+#, c-format
+msgid "%s free out of %s"
+msgstr "%s prostega od %s"
+
+#. / TRANSLATORS: this will only show up when 12-hours clock is in use
+#: lib/Widgets/TimePicker.vala:98
+msgid "AM"
+msgstr "dop."
+
+#. / TRANSLATORS: this will only show up when 12-hours clock is in use
+#: lib/Widgets/TimePicker.vala:100
+msgid "PM"
+msgstr "pop."
+
+#. / TRANSLATORS: separates hours from minutes.
+#: lib/Widgets/TimePicker.vala:146
+msgid ":"
+msgstr ":"
+
+#: lib/Widgets/Utils.vala:91
+msgid "Shift"
+msgstr "Shift"
+
+#: lib/Widgets/Utils.vala:95
+msgid "Ctrl"
+msgstr "Ctrl"
+
+#: lib/Widgets/Utils.vala:99
+msgid "Alt"
+msgstr "Alt"
+
+#. /TRANSLATORS: The Alt key on the left side of the keyboard
+#: lib/Widgets/Utils.vala:117
+msgid "Left Alt"
+msgstr "Levi Alt"
+
+#. /TRANSLATORS: The Alt key on the right side of the keyboard
+#: lib/Widgets/Utils.vala:121
+msgid "Right Alt"
+msgstr "Desni Alt"
+
+#. /TRANSLATORS: The Ctrl key on the right side of the keyboard
+#: lib/Widgets/Utils.vala:128
+#, fuzzy
+#| msgid "Right Alt"
+msgid "Right Ctrl"
+msgstr "Desni Alt"
+
+#. /TRANSLATORS: The Ctrl key on the left side of the keyboard
+#: lib/Widgets/Utils.vala:132
+#, fuzzy
+#| msgid "Left Alt"
+msgid "Left Ctrl"
+msgstr "Levi Alt"
+
+#. /TRANSLATORS: This is a non-symbol representation of the "-" key
+#: lib/Widgets/Utils.vala:137
+msgid "Minus"
+msgstr "Minus"
+
+#. /TRANSLATORS: This is a non-symbol representation of the "+" key
+#: lib/Widgets/Utils.vala:142
+msgid "Plus"
+msgstr "Plus"
+
+#. /TRANSLATORS: This is a non-symbol representation of the "=" key
+#: lib/Widgets/Utils.vala:147
+msgid "Equals"
+msgstr "Enačaj"
+
+#: lib/Widgets/Utils.vala:150
+msgid "Enter"
+msgstr "Enter"
+
+#. /TRANSLATORS: The Shift key on the left side of the keyboard
+#: lib/Widgets/Utils.vala:154
+msgid "Left Shift"
+msgstr "Levi Shift"
+
+#. /TRANSLATORS: The Shift key on the right side of the keyboard
+#: lib/Widgets/Utils.vala:158
+msgid "Right Shift"
+msgstr "Desni Shift"
+
+#. /TRANSLATORS: This is a delimiter that separates two keyboard shortcut labels like "⌘ + →, Control + A"
+#: lib/Widgets/Utils.vala:221
+msgid ", "
+msgstr ", "
+
+#~ msgid "%s's Developers"
+#~ msgstr "Razvijalci %s"
+
+#~ msgid "Website"
+#~ msgstr "Spletna stran"
+
+#~ msgid "Designed by:"
+#~ msgstr "Oblikoval:"
+
+#~ msgid "Written by:"
+#~ msgstr "Napisal:"
+
+#~ msgid "Documented by:"
+#~ msgstr "Dokumentiral:"
+
+#~ msgid "Translated by %s"
+#~ msgstr "Prevedel %s"
+
+#~ msgid "Close"
+#~ msgstr "Zapri"
+
+#~ msgid ""
+#~ "This program is published under the terms of the %s license, it comes "
+#~ "with ABSOLUTELY NO WARRANTY; for details, visit %s"
+#~ msgstr ""
+#~ "Ta program je objavljen pod pogoji licence %s in pride BREZ VSAKRŠNE "
+#~ "GARANCIJE; za podrobnosti obiščite %s"
+
+#~ msgid "Suggest Translations"
+#~ msgstr "Predlagaj prevode"
+
+#~ msgid "Report a Problem"
+#~ msgstr "Poročajte o težavi"
+
+#~ msgid "Menu"
+#~ msgstr "Meni"
+
+#~ msgid "About"
+#~ msgstr "O programu"
+
+#~ msgid "© %s"
+#~ msgstr "© %s"
+
+#~ msgid "This program is published under the terms of the "
+#~ msgstr "Ta program je objavljen pod pogoji dovoljenja "
+
+#~ msgid " license, it comes with ABSOLUTELY NO WARRANTY; for details, visit "
+#~ msgstr ""
+#~ " in prihaja BREZ KAKRŠNEGAKOLI JAMSTVA; za več podrobnosti obiščite "
+
+#~ msgid "Developers"
+#~ msgstr "Razvijalci"
+
+#~ msgid "Open in a new Window"
+#~ msgstr "Odpri v novem oknu"
+
+#~ msgid "Could not contact Contractor. You may need to install it"
+#~ msgstr "Ni mogoče kontaktirati Contractor-ja. Morda ga moraš namestiti"
+
+#~ msgid "No action found for this file"
+#~ msgstr "Ni bilo najdenega dejanja za to datoteko"
+
+#~ msgid "%a %b %e %Y"
+#~ msgstr "%a, %e. %b %Y"
+
+#~ msgid "%a %b %e"
+#~ msgstr "%a %b %e"
+
+#~ msgid "translator-credits"
+#~ msgstr ""
+#~ "Launchpad Contributions:\n"
+#~ "  Damir Jerovšek https://launchpad.net/~jierro\n"
+#~ "  Jernej Virag https://launchpad.net/~jernej\n"
+#~ "  MarkoD https://launchpad.net/~markodolar\n"
+#~ "  greg https://launchpad.net/~gorencgregor"
+
+#~ msgid "Toasts"
+#~ msgstr "Sporočila"
+
+#~ msgid "Simple in-app notifications"
+#~ msgstr "Preprosta sporočila v aplikacijah"
+
+#~ msgid "Button was pressed!"
+#~ msgstr "Tipka je bila pritisnjena!"
+
+#~ msgid "Do Things"
+#~ msgstr "Delaj nekaj"
+
+#~ msgid "Press Me"
+#~ msgstr "Pritisni me"
+
+#~ msgid "Did The Thing"
+#~ msgstr "Naredil sem nekaj"
+
+#~ msgid "Already did the thing"
+#~ msgstr "Sem že naredil nekaj"
+
+#~ msgid "Enabled"
+#~ msgstr "Omogočeno"
+
+#~ msgid "Disabled"
+#~ msgstr "Onemogočeno"
