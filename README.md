@@ -17,15 +17,14 @@ brew install libgit2-glib libhandy vte3 libsoup libpeas gtk+3 vala guile libgee 
 
 2. Build sources:
 ```
-    meson build --prefix=$HOMEBREW_DIR
-    cd build
-    ninja
+meson build --prefix=$HOMEBREW_DIR
+cd build
+ninja
 ```
 
 3. Install
 ```
-   sudo ninja install
-
+sudo ninja install
 ```
 
 Installation is necessary because it moves some glib schemas that the app needs in order to launch.
