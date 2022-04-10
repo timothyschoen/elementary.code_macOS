@@ -2,6 +2,12 @@
 
 MacOS port of elementary's code editor
 
+This package contains:
+- libgranite-6.1.2 (statically linked, not installed)
+- elementary-icon-theme
+- elementary-gtk-theme
+- io.elementary.code
+
 <img width="1057" alt="Screenshot 2022-04-10 at 03 42 46" src="https://user-images.githubusercontent.com/44585538/162597553-299e6680-e55c-438f-8a61-2f321e8769b0.png">
 
 
