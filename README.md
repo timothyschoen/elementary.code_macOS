@@ -2,7 +2,7 @@
 
 MacOS port of elementary's code editor
 
-<img width="1082" alt="Screenshot 2022-04-10 at 00 59 52" src="https://user-images.githubusercontent.com/44585538/162594355-31bf90bf-65bc-4b30-8778-e771fbbc10b4.png">
+<img width="1057" alt="Screenshot 2022-04-10 at 03 42 46" src="https://user-images.githubusercontent.com/44585538/162597553-299e6680-e55c-438f-8a61-2f321e8769b0.png">
 
 
 ## Building, Testing, and Installation
