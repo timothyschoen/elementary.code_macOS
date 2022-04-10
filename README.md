@@ -56,5 +56,5 @@ It will install the application to /Applications/Code.app
 
 This is mostly for playing around, it works okay-ish. It can't receive Apple's "open file" commands, so I wrapped it in Applescript so you can at least open a file once while the app is not already opened.
 
-Plugins work, but only one a a time and they can be quite buggy.
+Plugins work, but only one at a time and they can be quite buggy.
 
