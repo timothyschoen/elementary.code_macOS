@@ -21,4 +21,4 @@ os.system('cp ../build/src/io.elementary.code ' + '../application/Code.app/Conte
 os.system('cp -r ../application/Code.app ' + '/Applications/Code.app')
 
 subprocess.call(['glib-compile-schemas', schemadir])
-subprocess.call('gtk-update-icon-cache')
+subprocess.call('gtk3-update-icon-cache')
