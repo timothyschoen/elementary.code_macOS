@@ -101,15 +101,32 @@ namespace Scratch.FolderManager {
 
         // checks if we're dealing with a textfile
         public bool is_valid_textfile {
+
             get {
+
                 if (info.get_is_backup ()) {
                     return false;
                 }
-
-                if (info.get_file_type () == FileType.REGULAR &&
-                    ContentType.is_a (info.get_content_type (), "text/*")) {
-                    return true;
+                if(info.get_content_type().contains("text")) {
+                  return true;
                 }
+                if(info.get_content_type().contains("code")) {
+                  return true;
+                }
+                if(info.get_content_type().contains("source")) {
+                  return true;
+                }
+                if(info.get_content_type().contains("header")) {
+                  return true;
+                }
+                if(info.get_content_type().contains("script")) {
+                  return true;
+                }
+                if(info.get_content_type().contains("dyn")) {
+                  return true;
+                }
+
+                print(info.get_content_type() + "\n");
 
                 return false;
             }

@@ -44,6 +44,13 @@ namespace Scratch {
             { null }
         };
 
+            private const ActionEntry[] app_entries =
+        {
+            { "preferences", null, null, null, null },
+            { "about", null, null, null, null },
+            { "quit", null, null, null, null },
+        };
+
         static construct {
             _app_cmd_name = "Code";
 
@@ -75,6 +82,15 @@ namespace Scratch {
             GLib.Intl.bindtextdomain (Constants.GETTEXT_PACKAGE, Constants.LOCALEDIR);
             GLib.Intl.bind_textdomain_codeset (Constants.GETTEXT_PACKAGE, "UTF-8");
             GLib.Intl.textdomain (Constants.GETTEXT_PACKAGE);
+
+            add_action_entries (app_entries, this);
+
+            Gtk.Builder builder = new Gtk.Builder ();
+          	builder.add_from_resource ("/io/elementary/code/menu.ui");
+            MenuModel menu = builder.get_object ("app-menu") as MenuModel;
+
+            set_app_menu(menu);
+            //gtk_mac_menu_set_menu_bar(menu);
         }
 
         public override int handle_local_options (VariantDict options) {

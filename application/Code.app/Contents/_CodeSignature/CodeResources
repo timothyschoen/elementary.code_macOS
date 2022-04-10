@@ -6,11 +6,11 @@
 	<dict>
 		<key>Resources/Scripts/main.scpt</key>
 		<data>
-		ACAQcBZWR3ho194IiYv9HkJes9w=
+		KYPDEcy2d8RBBF4ezTmi/jmh1k4=
 		</data>
 		<key>Resources/applet.icns</key>
 		<data>
-		sINd6lbiqHD5dL8c6u79cFvVXhw=
+		Vg+rf9RKlPF/ZloKSEBufbPvJWs=
 		</data>
 		<key>Resources/applet.rsrc</key>
 		<data>
@@ -23,35 +23,35 @@
 	</dict>
 	<key>files2</key>
 	<dict>
-		<key>MacOS/io.elementary.code</key>
+		<key>MacOS/Code</key>
 		<dict>
 			<key>cdhash</key>
 			<data>
-			bmYMyPcwhC6A7fqnocjHT4yIFgs=
+			nSr5yMP2MS1ldp1KzrDdIPqe7oc=
 			</data>
 			<key>requirement</key>
-			<string>cdhash H"6e660cc8f730842e80edfaa7a1c8c74f8c88160b"</string>
+			<string>cdhash H"9d2af9c8c3f6312d65769d4aceb0dd20fa9eee87"</string>
 		</dict>
 		<key>Resources/Scripts/main.scpt</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			ACAQcBZWR3ho194IiYv9HkJes9w=
+			KYPDEcy2d8RBBF4ezTmi/jmh1k4=
 			</data>
 			<key>hash2</key>
 			<data>
-			cx8TaRvvc9eNErBkI9Y+W1ww6P7xA4Kdudjj2OlmMHw=
+			LVYgyOGe2jgNkYkzmRQ6RvLwZyjBGcqjt0A2gEzdOXA=
 			</data>
 		</dict>
 		<key>Resources/applet.icns</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			sINd6lbiqHD5dL8c6u79cFvVXhw=
+			Vg+rf9RKlPF/ZloKSEBufbPvJWs=
 			</data>
 			<key>hash2</key>
 			<data>
-			J7weZ6vlnv9r32tS5HFcyuPXl2StdDnfepLxAixlryk=
+			3dH6DblVMiUvhyOD2lPLTzpAGigh/qRKhHgB3xdtuqI=
 			</data>
 		</dict>
 		<key>Resources/applet.rsrc</key>
@@ -75,15 +75,6 @@
 			<data>
 			Se28s76nBde81WaSNh/z4NsDqFkvDYBfFRRcoGNi2II=
 			</data>
-		</dict>
-		<key>io.elementary.code</key>
-		<dict>
-			<key>cdhash</key>
-			<data>
-			bmYMyPcwhC6A7fqnocjHT4yIFgs=
-			</data>
-			<key>requirement</key>
-			<string>cdhash H"6e660cc8f730842e80edfaa7a1c8c74f8c88160b"</string>
 		</dict>
 	</dict>
 	<key>rules</key>

@@ -11,6 +11,7 @@ foreach i : icon_sizes
     )
 endforeach
 
+
 install_data([
   'fonts/BuilderBlocks.ttf',
 ], install_dir: join_paths(get_option('datadir'), meson.project_name(), 'fonts'))
