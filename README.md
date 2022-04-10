@@ -8,14 +8,18 @@ MacOS port of elementary's code editor
 ## Building, Testing, and Installation
 
 
+1. Clone repository
+```
+git clone https://github.com/timothyschoen/elementary.code_macOS.git
+```
 
-1. Install dependencies using homebrew
+2. Install dependencies using homebrew (for installing homebrew see: https://brew.sh/)
 
 ```
 brew install libgit2-glib libhandy vte3 libsoup libpeas gtk+3 vala guile libgee glib meson ninja gtksourceview4 editorconfig gsettings-desktop-schemas gtkspell3 appstream-glib gcc
 ```
 
-2. Build sources (replace $HOMEBREW_DIR with your homebrew directory, it can be /usr/local/ (x64) or /opt/homebrew (ARM)):
+3. Build sources:
 
 On x64:
 ```
@@ -40,7 +44,7 @@ sudo ninja install
 Installation is necessary because it moves some glib schemas that the app needs in order to launch.
 
 It also copies the elementary-icon-theme to $HOMEBREW_DIR/share/icons/ and sets it as the default theme in ~/.config/gtk-3.0/settings.ini
-So this script will change your default gtk theme, be warned! Not many apps on mac use gtk so it's probably not a big deal for most.
+So this script will change your default gtk theme, be warned!! Not many apps on mac use gtk so it's probably not a big deal for most.
 
 It will install the application to /Applications/Code.app
 
