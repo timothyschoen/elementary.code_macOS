@@ -16,7 +16,7 @@ git clone https://github.com/timothyschoen/elementary.code_macOS.git
 2. Install dependencies using homebrew (for installing homebrew see: https://brew.sh/)
 
 ```
-brew install libgit2-glib libhandy vte3 libpeas gtk+3 vala guile libgee glib meson ninja gtksourceview4 editorconfig gsettings-desktop-schemas gtkspell3
+brew install libgit2-glib libhandy vte3 libpeas gtk+3 vala guile libgee glib meson ninja gtksourceview4 editorconfig gsettings-desktop-schemas gtkspell3 gtk-update-icon-cache
 ```
 
 3. Build sources:
