@@ -71,9 +71,3 @@ subdir('po')
 if get_option('documentation')
     subdir('doc')
 endif
-
-# set up post-install script to refresh the GTK icon cache
-meson.add_install_script(
-    join_paths(meson.current_source_dir(), 'meson', 'post_install.py'),
-    '--iconsdir', icons_dir,
-)
