@@ -7,7 +7,7 @@ MacOS port of elementary's code editor
 
 ## Building, Testing, and Installation
 
-Replace $HOMEBREW_DIR with your homebrew directory, it can be /usr/local/ (x64) or /opt/homebrew (ARM)
+
 
 1. Install dependencies using homebrew
 
@@ -15,9 +15,19 @@ Replace $HOMEBREW_DIR with your homebrew directory, it can be /usr/local/ (x64) 
 brew install libgit2-glib libhandy vte3 libsoup libpeas gtk+3 vala guile libgee glib meson ninja gtksourceview4 editorconfig gsettings-desktop-schemas gtkspell3 appstream-glib gcc
 ```
 
-2. Build sources:
+2. Build sources (replace $HOMEBREW_DIR with your homebrew directory, it can be /usr/local/ (x64) or /opt/homebrew (ARM)):
+
+On x64:
 ```
-meson build --prefix=$HOMEBREW_DIR
+meson build --prefix=/usr/local/
+cd build
+ninja
+```
+
+On Apple Silicon:
+
+```
+meson build --prefix=/opt/homebrew/
 cd build
 ninja
 ```
