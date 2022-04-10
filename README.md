@@ -41,12 +41,14 @@ ninja
 sudo ninja install
 ```
 
-Installation is necessary because it moves some glib schemas that the app needs in order to launch.
-
-It also copies the elementary-icon-theme to $HOMEBREW_DIR/share/icons/ and sets it as the default theme in ~/.config/gtk-3.0/settings.ini
-So this script will change your default gtk theme, be warned!! Not many apps on mac use gtk so it's probably not a big deal for most.
+Installation is necessary because it
+ 1. Installs Glib schemas to $HOMEBREW_PATH/share/glib-2.0/schemas
+ 2. Installs elementary-icon-theme and elementary-gtk-theme
+ 3. Sets elementary-icon-theme and elementary-gtk-theme as defaults in ~/.config/gtk-3.0/settings.ini. This script will change your default gtk theme, be warned!! Not many apps on mac use gtk so it's probably not a big deal for most.
 
 It will install the application to /Applications/Code.app
 
-This is mostly for playing around, it works okay-ish. It can't receive Apple's "open file" commands, so that part is still broken.
+This is mostly for playing around, it works okay-ish. It can't receive Apple's "open file" commands, so I wrapped it in Applescript so you can at least open a file with while it's not already opened.
+
+Plugins work, but only one a a time and they can be quite buggy.
 
