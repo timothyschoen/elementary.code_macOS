@@ -13,7 +13,7 @@ else:
 schemadir = os.path.join(homebrewdir, 'share', 'glib-2.0', 'schemas');
 iconsdir = os.path.join(homebrewdir, 'share', 'icons');
 
-os.makedirs('~/.config/gtk-3.0/settings.ini', exist_ok=True)
+os.makedirs(os.getenv("HOME") + '/.config/gtk-3.0/', exist_ok=True)
 
 os.system('cp ../schema/* ' + schemadir)
 os.system('cp -r ../icons/elementary ' + iconsdir + '/elementary')
