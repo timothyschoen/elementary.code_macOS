@@ -52,9 +52,10 @@ Installation is necessary because it
  2. Installs elementary-icon-theme and elementary-gtk-theme
  3. Sets elementary-icon-theme and elementary-gtk-theme as defaults in ~/.config/gtk-3.0/settings.ini. This script will change your default gtk theme, be warned!! Not many apps on mac use gtk so it's probably not a big deal for most.
 
-It will install the application to /Applications/Code.app
+It will move the application to /build/Code.app/
+If you experience code-signing issues, try opening the app with Script Editor, and resaving it.
 
-This is mostly for playing around, it works okay-ish. It can't receive Apple's "open file" commands, so I wrapped it in Applescript so you can at least open a file once while the app is not already opened.
+This is mostly for playing around, it works decently. I wrote a workaround for opening files using applescript and posix pipes. It's not pretty but it works! One problem is that cmd and ctrl are not swapped.
 
 Plugins work, but only one at a time and they can be quite buggy.
 
