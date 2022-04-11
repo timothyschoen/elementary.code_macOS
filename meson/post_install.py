@@ -59,8 +59,6 @@ os.system('cp ../meson/settings.ini ~/.config/gtk-3.0/settings.ini')
 os.system('rm -rf ../build/Code.app')
 os.system('cp -r -f ../application/Code.app ../build/Code.app')
 
-
-
 os.system('cp ../build/src/io.elementary.code ../application/Code.app/Contents/Resources/Code.app/Contents/MacOS/Code')
 
 #os.system('cp -r -f ../application/Code.app /Applications/Code.app')

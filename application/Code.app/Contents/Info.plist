@@ -11,24 +11,25 @@
 		<dict>
 			<key>CFBundleTypeExtensions</key>
 			<array>
-				<string>*</string>
+				<string>txt</string>
+				<string>c</string>
+				<string>h</string>
+				<string>cpp</string>
+				<string>vala</string>
+				<string>py</string>
+				<string>js</string>
+				<string>xml</string>
+				<string>json</string>
+				<string>plist</string>
 			</array>
-			<key>CFBundleTypeMIMETypes</key>
-			<array/>
+			<key>CFBundleTypeIconFile</key>
+			<string>Text</string>
 			<key>CFBundleTypeName</key>
-			<string>CodeLauncher</string>
-			<key>CFBundleTypeOSTypes</key>
-			<array>
-				<string>****</string>
-			</array>
+			<string>text</string>
 			<key>CFBundleTypeRole</key>
 			<string>Editor</string>
 			<key>LSHandlerRank</key>
-			<string>Owner</string>
-			<key>LSItemContentTypes</key>
-			<array>
-				<string>*</string>
-			</array>
+			<string>Default</string>
 		</dict>
 	</array>
 	<key>CFBundleExecutable</key>
@@ -91,7 +92,7 @@
 		<key>name</key>
 		<string>ScriptWindowState</string>
 		<key>positionOfDivider</key>
-		<real>299</real>
+		<real>275</real>
 		<key>savedFrame</key>
 		<string>73 189 700 678 0 0 1440 875 </string>
 		<key>selectedTab</key>
