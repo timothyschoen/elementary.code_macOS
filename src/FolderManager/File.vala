@@ -125,8 +125,7 @@ namespace Scratch.FolderManager {
                 if(info.get_content_type().contains("dyn")) {
                   return true;
                 }
-
-                print(info.get_content_type() + "\n");
+                
 
                 return false;
             }

@@ -4,13 +4,37 @@
 <dict>
 	<key>files</key>
 	<dict>
+		<key>Resources/Code.app/Contents/Info.plist</key>
+		<data>
+		zS2ypNjLMlB9IYQ9zcBHsVW8TRw=
+		</data>
+		<key>Resources/Code.app/Contents/MacOS/Code</key>
+		<data>
+		NlKtXZ6vQGfakFv56sJFBF8TYLA=
+		</data>
+		<key>Resources/Code.app/Contents/PkgInfo</key>
+		<data>
+		n57qDP4tZfLD1rCS43W0B4LQjzE=
+		</data>
+		<key>Resources/Code.app/Contents/Resources/Icon.icns</key>
+		<data>
+		k2N51Fb8cHmF0xUB2Kd1an0w8zI=
+		</data>
+		<key>Resources/Code.app/Contents/_CodeSignature/CodeResources</key>
+		<data>
+		zzUbKt4pQ88NUy8uGxu9Ljo0bHc=
+		</data>
+		<key>Resources/Scripts/main.rtf</key>
+		<data>
+		+ls/iJli50R25Oz3ABSsxh1+V1I=
+		</data>
 		<key>Resources/Scripts/main.scpt</key>
 		<data>
-		KYPDEcy2d8RBBF4ezTmi/jmh1k4=
+		TTfsRErvxGjOBbQ5vWUdY8dzyfU=
 		</data>
 		<key>Resources/applet.icns</key>
 		<data>
-		Vg+rf9RKlPF/ZloKSEBufbPvJWs=
+		k2N51Fb8cHmF0xUB2Kd1an0w8zI=
 		</data>
 		<key>Resources/applet.rsrc</key>
 		<data>
@@ -23,35 +47,92 @@
 	</dict>
 	<key>files2</key>
 	<dict>
-		<key>MacOS/Code</key>
+		<key>Resources/Code.app/Contents/Info.plist</key>
 		<dict>
-			<key>cdhash</key>
+			<key>hash</key>
 			<data>
-			nSr5yMP2MS1ldp1KzrDdIPqe7oc=
+			zS2ypNjLMlB9IYQ9zcBHsVW8TRw=
 			</data>
-			<key>requirement</key>
-			<string>cdhash H"9d2af9c8c3f6312d65769d4aceb0dd20fa9eee87"</string>
+			<key>hash2</key>
+			<data>
+			oyUp0l0rVBYOCnui25m1mFihIcwC2I6sX9X9EzwTm7I=
+			</data>
+		</dict>
+		<key>Resources/Code.app/Contents/MacOS/Code</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			NlKtXZ6vQGfakFv56sJFBF8TYLA=
+			</data>
+			<key>hash2</key>
+			<data>
+			82KGkEDDEJDe+FatFO+MQTn+2JOxjr0u8KsDp5DIFm4=
+			</data>
+		</dict>
+		<key>Resources/Code.app/Contents/PkgInfo</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			n57qDP4tZfLD1rCS43W0B4LQjzE=
+			</data>
+			<key>hash2</key>
+			<data>
+			glAhkclISwTWhTdPmHmgBmBpxJuKyuegSwHTjQfo7KA=
+			</data>
+		</dict>
+		<key>Resources/Code.app/Contents/Resources/Icon.icns</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			k2N51Fb8cHmF0xUB2Kd1an0w8zI=
+			</data>
+			<key>hash2</key>
+			<data>
+			PxqHOry1j2IP06UHXzNucuYt5KWTlIP3aInfAqIjDEU=
+			</data>
+		</dict>
+		<key>Resources/Code.app/Contents/_CodeSignature/CodeResources</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			zzUbKt4pQ88NUy8uGxu9Ljo0bHc=
+			</data>
+			<key>hash2</key>
+			<data>
+			QQALJxEdtpFJxrBzpLfRzvEzOhlJk6fnlKmPZ5P0EGw=
+			</data>
+		</dict>
+		<key>Resources/Scripts/main.rtf</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			+ls/iJli50R25Oz3ABSsxh1+V1I=
+			</data>
+			<key>hash2</key>
+			<data>
+			We1RQftguuXHhkBS5i+kvqvSMLh9TA7OfostGlLd7DM=
+			</data>
 		</dict>
 		<key>Resources/Scripts/main.scpt</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			KYPDEcy2d8RBBF4ezTmi/jmh1k4=
+			TTfsRErvxGjOBbQ5vWUdY8dzyfU=
 			</data>
 			<key>hash2</key>
 			<data>
-			LVYgyOGe2jgNkYkzmRQ6RvLwZyjBGcqjt0A2gEzdOXA=
+			VpCA/q2GXr2QOMVnMXCXH234art3i2dZl53vkXxSG9E=
 			</data>
 		</dict>
 		<key>Resources/applet.icns</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			Vg+rf9RKlPF/ZloKSEBufbPvJWs=
+			k2N51Fb8cHmF0xUB2Kd1an0w8zI=
 			</data>
 			<key>hash2</key>
 			<data>
-			3dH6DblVMiUvhyOD2lPLTzpAGigh/qRKhHgB3xdtuqI=
+			PxqHOry1j2IP06UHXzNucuYt5KWTlIP3aInfAqIjDEU=
 			</data>
 		</dict>
 		<key>Resources/applet.rsrc</key>

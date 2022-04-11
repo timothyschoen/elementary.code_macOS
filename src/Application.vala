@@ -20,7 +20,13 @@
 * Boston, MA 02110-1301 USA
 */
 
+
+
+extern void start_listening();
+extern void read_pipe(uint8* result, int* size);
+
 namespace Scratch {
+
     public GLib.Settings saved_state;
     public GLib.Settings settings;
     public GLib.Settings service_settings;
@@ -32,7 +38,7 @@ namespace Scratch {
         public string default_font { get; set; }
         private static string _app_cmd_name;
         private static string _data_home_folder_unsaved;
-        private static bool create_new_tab = false;
+        public static bool create_new_tab = false;
         private static bool create_new_window = false;
 
         const OptionEntry[] ENTRIES = {
@@ -42,13 +48,6 @@ namespace Scratch {
             { "set", 's', 0, OptionArg.STRING, ref _app_cmd_name, N_("Set of plugins"), N_("plugin") },
             { GLib.OPTION_REMAINING, 0, 0, OptionArg.FILENAME_ARRAY, null, null, N_("[FILE…]") },
             { null }
-        };
-
-            private const ActionEntry[] app_entries =
-        {
-            { "preferences", null, null, null, null },
-            { "about", null, null, null, null },
-            { "quit", null, null, null, null },
         };
 
         static construct {
@@ -82,15 +81,6 @@ namespace Scratch {
             GLib.Intl.bindtextdomain (Constants.GETTEXT_PACKAGE, Constants.LOCALEDIR);
             GLib.Intl.bind_textdomain_codeset (Constants.GETTEXT_PACKAGE, "UTF-8");
             GLib.Intl.textdomain (Constants.GETTEXT_PACKAGE);
-
-            add_action_entries (app_entries, this);
-
-            Gtk.Builder builder = new Gtk.Builder ();
-          	builder.add_from_resource ("/io/elementary/code/menu.ui");
-            MenuModel menu = builder.get_object ("app-menu") as MenuModel;
-
-            set_app_menu(menu);
-            //gtk_mac_menu_set_menu_bar(menu);
         }
 
         public override int handle_local_options (VariantDict options) {
@@ -121,6 +111,7 @@ namespace Scratch {
             if (options.contains ("new-window")) {
                 create_new_window = true;
             }
+
 
             activate ();
 
@@ -187,8 +178,51 @@ namespace Scratch {
             return new MainWindow (this);
         }
 
+        public void pipe_open_file (string file_str)
+        {
+            File[] files = {};
+
+            string[] paths = file_str.split (" ");
+
+            for (int i = 0; i < paths.length; i++) {
+                var file = File.new_for_path(paths[i]);
+                print(paths[i]);
+                if(file.query_exists()) {
+                  files += file;
+                }
+            }
+
+
+            open(files, "");
+        }
+
         public static int main (string[] args) {
-            return new Application ().run (args);
+
+          var app = new Application();
+
+          start_listening();
+
+          GLib.Timeout.add(100, () => {
+            var result = new uint8[5000];
+            int size = 0;
+
+            read_pipe(result, &size);
+            var str = (string)result;
+
+            if(size != 0) {
+              print(str);
+              print("Bytes:");
+              stdout.printf("%i", size);
+              print("\n");
+
+
+              app.pipe_open_file(str);
+            }
+
+            return true;
+          });
+
+          return app.run (args);
         }
     }
 }

@@ -45,6 +45,8 @@ code_files = files(
     'Widgets/SearchBar.vala',
     'Widgets/SourceView.vala',
     'Widgets/WelcomeView.vala',
+    'Widgets/WelcomeView.vala',
+    'PipeListener.c',
 )
 
 executable(

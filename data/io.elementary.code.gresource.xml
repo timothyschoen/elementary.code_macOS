@@ -3,6 +3,5 @@
   <gresource prefix="/io/elementary/code">
     <file alias="Application.css" compressed="true">Application.css</file>
     <file alias="git.svg" compressed="true" preprocess="xml-stripblanks">icons/48/git.svg</file>
-    <file alias="menu.ui" preprocess="xml-stripblanks">menus.ui</file>
   </gresource>
 </gresources>

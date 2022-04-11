@@ -142,40 +142,40 @@ namespace Scratch {
         }
 
         static construct {
-            action_accelerators.set (ACTION_FIND + "::", "<Control>f");
-            action_accelerators.set (ACTION_FIND_NEXT, "<Control>g");
-            action_accelerators.set (ACTION_FIND_PREVIOUS, "<Control><shift>g");
-            action_accelerators.set (ACTION_FIND_GLOBAL + "::", "<Control><shift>f");
-            action_accelerators.set (ACTION_OPEN, "<Control>o");
-            action_accelerators.set (ACTION_REVERT, "<Control><shift>o");
-            action_accelerators.set (ACTION_SAVE, "<Control>s");
-            action_accelerators.set (ACTION_SAVE_AS, "<Control><shift>s");
-            action_accelerators.set (ACTION_GO_TO, "<Control>i");
+            action_accelerators.set (ACTION_FIND + "::", "<Primary>f");
+            action_accelerators.set (ACTION_FIND_NEXT, "<Primary>g");
+            action_accelerators.set (ACTION_FIND_PREVIOUS, "<Primary><shift>g");
+            action_accelerators.set (ACTION_FIND_GLOBAL + "::", "<Primary><shift>f");
+            action_accelerators.set (ACTION_OPEN, "<Primary>o");
+            action_accelerators.set (ACTION_REVERT, "<Primary><shift>o");
+            action_accelerators.set (ACTION_SAVE, "<Primary>s");
+            action_accelerators.set (ACTION_SAVE_AS, "<Primary><shift>s");
+            action_accelerators.set (ACTION_GO_TO, "<Primary>i");
             action_accelerators.set (ACTION_SORT_LINES, "F5");
-            action_accelerators.set (ACTION_NEW_TAB, "<Control>n");
-            action_accelerators.set (ACTION_UNDO, "<Control>z");
-            action_accelerators.set (ACTION_REDO, "<Control><shift>z");
-            action_accelerators.set (ACTION_SHOW_REPLACE, "<Control>r");
-            action_accelerators.set (ACTION_TO_LOWER_CASE, "<Control>l");
-            action_accelerators.set (ACTION_TO_UPPER_CASE, "<Control>u");
-            action_accelerators.set (ACTION_DUPLICATE, "<Control>d");
+            action_accelerators.set (ACTION_NEW_TAB, "<Primary>n");
+            action_accelerators.set (ACTION_UNDO, "<Primary>z");
+            action_accelerators.set (ACTION_REDO, "<Primary><shift>z");
+            action_accelerators.set (ACTION_SHOW_REPLACE, "<Primary>r");
+            action_accelerators.set (ACTION_TO_LOWER_CASE, "<Primary>l");
+            action_accelerators.set (ACTION_TO_UPPER_CASE, "<Primary>u");
+            action_accelerators.set (ACTION_DUPLICATE, "<Primary>d");
             action_accelerators.set (ACTION_FULLSCREEN, "F11");
-            action_accelerators.set (ACTION_QUIT, "<Control>q");
-            action_accelerators.set (ACTION_ZOOM_DEFAULT, "<Control>0");
-            action_accelerators.set (ACTION_ZOOM_DEFAULT, "<Control>KP_0");
-            action_accelerators.set (ACTION_ZOOM_IN, "<Control>plus");
-            action_accelerators.set (ACTION_ZOOM_IN, "<Control>equal");
-            action_accelerators.set (ACTION_ZOOM_IN, "<Control>KP_Add");
-            action_accelerators.set (ACTION_ZOOM_OUT, "<Control>minus");
-            action_accelerators.set (ACTION_ZOOM_OUT, "<Control>KP_Subtract");
-            action_accelerators.set (ACTION_TOGGLE_COMMENT, "<Control>m");
-            action_accelerators.set (ACTION_TOGGLE_COMMENT, "<Control>slash");
+            action_accelerators.set (ACTION_QUIT, "<Primary>q");
+            action_accelerators.set (ACTION_ZOOM_DEFAULT, "<Primary>0");
+            action_accelerators.set (ACTION_ZOOM_DEFAULT, "<Primary>KP_0");
+            action_accelerators.set (ACTION_ZOOM_IN, "<Primary>plus");
+            action_accelerators.set (ACTION_ZOOM_IN, "<Primary>equal");
+            action_accelerators.set (ACTION_ZOOM_IN, "<Primary>KP_Add");
+            action_accelerators.set (ACTION_ZOOM_OUT, "<Primary>minus");
+            action_accelerators.set (ACTION_ZOOM_OUT, "<Primary>KP_Subtract");
+            action_accelerators.set (ACTION_TOGGLE_COMMENT, "<Primary>m");
+            action_accelerators.set (ACTION_TOGGLE_COMMENT, "<Primary>slash");
             action_accelerators.set (ACTION_TOGGLE_SIDEBAR, "F9"); // GNOME
-            action_accelerators.set (ACTION_TOGGLE_SIDEBAR, "<Control>backslash"); // Atom
-            action_accelerators.set (ACTION_NEXT_TAB, "<Control>Tab");
-            action_accelerators.set (ACTION_PREVIOUS_TAB, "<Control><Shift>Tab");
-            action_accelerators.set (ACTION_CLEAR_LINES, "<Control>K"); //Geany
-            action_accelerators.set (ACTION_NEW_BRANCH + "::", "<Control>B");
+            action_accelerators.set (ACTION_TOGGLE_SIDEBAR, "<Primary>backslash"); // Atom
+            action_accelerators.set (ACTION_NEXT_TAB, "<Primary>Tab");
+            action_accelerators.set (ACTION_PREVIOUS_TAB, "<Primary><Shift>Tab");
+            action_accelerators.set (ACTION_CLEAR_LINES, "<Primary>K"); //Geany
+            action_accelerators.set (ACTION_NEW_BRANCH + "::", "<Primary>B");
 
             var provider = new Gtk.CssProvider ();
             provider.load_from_resource ("io/elementary/code/Application.css");

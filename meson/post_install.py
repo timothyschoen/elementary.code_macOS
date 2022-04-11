@@ -26,6 +26,7 @@ os.system('cp ../meson/settings.ini ' + '~/.config/gtk-3.0/settings.ini')
 os.makedirs("/opt/homebrew/lib/io.elementary.code/plugins", exist_ok=True)
 os.makedirs("/opt/homebrew/lib/io.elementary.code/plugins/unused", exist_ok=True)
 
+
 plugins = [
             'terminal',
             'brackets-completion',
@@ -55,8 +56,13 @@ os.system('mv ' + path + '.dylib ' + path + '.so') # hack to make it find the pl
 
 os.system('cp ../meson/settings.ini ~/.config/gtk-3.0/settings.ini')
 
-os.system('rm -rf /Applications/Code.app')
-os.system('cp ../build/src/io.elementary.code ../application/Code.app/Contents/MacOS/Code')
-os.system('cp -r -f ../application/Code.app /Applications/Code.app')
+os.system('rm -rf ../build/Code.app')
+os.system('cp -r -f ../application/Code.app ../build/Code.app')
+
+
+
+os.system('cp ../build/src/io.elementary.code ../application/Code.app/Contents/Resources/Code.app/Contents/MacOS/Code')
+
+#os.system('cp -r -f ../application/Code.app /Applications/Code.app')
 
 subprocess.call('gtk3-update-icon-cache')
